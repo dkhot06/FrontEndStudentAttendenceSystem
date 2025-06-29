@@ -1,0 +1,19 @@
+<div class="page-wrapper">
+    <div class="header-banner">
+      <h1>Welcome to FirstBit Attendance System</h1>
+    </div>
+  
+    <div class="login-container">
+      <h2>Login</h2>
+      <form (ngSubmit)="login()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" [(ngModel)]="name" name="name" placeholder="Enter your name" required />
+  
+        <label for="id">User ID:</label>
+        <input type="text" id="id" [(ngModel)]="id" name="id" placeholder="Enter your user ID" required />
+  
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+  
